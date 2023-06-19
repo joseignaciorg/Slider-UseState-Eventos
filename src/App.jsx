@@ -1,5 +1,11 @@
+import User from './components/user/User';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<User />
+		</>
+	);
 };
 
 export default App;
